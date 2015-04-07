@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo 9l $*
-gcc -lm -lX11 -lXext -lpthread $*
+gcc -m32 -lm -lX11 -lXext -lpthread $*

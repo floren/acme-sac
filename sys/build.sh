@@ -1,6 +1,6 @@
 cwd=`pwd`
 export ACME_HOME=`dirname $cwd`
-PATH=$PATH:$cwd/Linux/cmd
+PATH=$cwd/Linux/cmd:$PATH
 mkdir -p lib
 cd lib9
 ./build.sh
@@ -22,4 +22,3 @@ cd ../libsec
 ./build.sh
 cd ../emu/Linux
 ./build.sh
-
